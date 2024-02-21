@@ -16,6 +16,7 @@ import Developers from "./Pages/Aboutus";
 import ConfirmDelete from "./Pages/ConfirmDelete";
 import { Scrollbars } from "react-custom-scrollbars";
 import Contact from "./Pages/contactUs";
+import DisplayCard from './Pages/DisplayCard'
 
 Modal.setAppElement("#root");
 
@@ -143,6 +144,16 @@ function App() {
               path=""
               element={
                 <Main
+                  setDeleteId={setDeleteId}
+                  openModalConfirm={openModalConfirm}
+                  openModalBudget={openModalBudget}
+                />
+              }
+            ></Route>
+            <Route
+              path="card"
+              element={
+                <DisplayCard
                   setDeleteId={setDeleteId}
                   openModalConfirm={openModalConfirm}
                   openModalBudget={openModalBudget}
