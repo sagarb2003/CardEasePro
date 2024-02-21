@@ -39,7 +39,7 @@ export default function LandingPage(props) {
         >
           <div className="flex">
             <h1 className="text-rp-yellow text-3xl font-semibold pt-4">
-              Expense Tracker
+              CardEasePro
             </h1>
             <button
               className=" ml-auto mt-4 bg-mj-yellow rounded-md "
@@ -96,7 +96,7 @@ export default function LandingPage(props) {
         id="navbar"
       >
         <h1 className="text-rp-yellow lg:text-4xl font-semibold text-xl">
-          Expense Tracker
+          CardEasePro
         </h1>
         <div className="grid grid-cols-3 lg:flex items-center lg:justify-between text-mj-yellow ">
           <Link to="/about-us">
@@ -181,7 +181,7 @@ export default function LandingPage(props) {
                 </svg>
               </button>
               <button
-                onClick={props.openModalSignup}
+                // onClick={props.openModalSignup}
                 className="mt-8 bg-mj-yellow text-mj-black px-4 py-2 rounded-md font-semibold flex items-center w-fit my-2"
               >
                 Get Virtual Card
